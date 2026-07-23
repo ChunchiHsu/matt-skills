@@ -7,6 +7,8 @@ argument-hint: "What would you like to learn about?"
 
 The user has asked you to teach them something. This is a stateful request - they intend to learn the topic over multiple sessions.
 
+> **【本 repo 在地化 2026-07-13】工作區一律在 `learning/<主題>/`。** 當前目錄已在 `learning/` 底下的主題資料夾內就照原文用當前目錄；否則（例如在 repo 根目錄被呼叫）**不得**把學習檔案生在當前目錄——先在 repo 根目錄的 `learning/` 下建立或選定主題資料夾，所有檔案都放那裡。`learning/` 已 gitignore，學習檔案絕不能出現在 git status 裡。
+
 ## Teaching Workspace
 
 Treat the current directory as a teaching workspace. The state of their learning is captured in this directory in several files:
